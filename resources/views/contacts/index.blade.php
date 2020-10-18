@@ -19,15 +19,31 @@
             </div>
         </div>
         <div class="card-block">
-            <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </p>
+           <div class="row m-b-30">
+            <div class="col-sm-12">
+                <div class="sub-title">Lista kontaktów</div>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs md-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#osoby" role="tab">Osoby</a>
+                        <div class="slide"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#podmioty" role="tab">Podmioty</a>
+                        <div class="slide"></div>
+                    </li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content card-block">
+                    <div class="tab-pane active" id="osoby" role="tabpanel">
+                        <p class="m-0">1. This is Photoshop's version of Lorem IpThis is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean mas Cum sociis natoque penatibus et magnis dis.....</p>
+                    </div>
+                    <div class="tab-pane" id="podmioty" role="tabpanel">
+                        <p class="m-0">2.Cras consequat in enim ut efficitur. Nulla posuere elit quis auctor interdum praesent sit amet nulla vel enim amet. Donec convallis tellus neque, et imperdiet felis amet.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+</div>
 </x-app-layout>
